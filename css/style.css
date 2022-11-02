@@ -1,0 +1,79 @@
+.container {
+    width:1171px;
+    margin: 0 auto;
+    background-color: lightblue;
+}
+.block {
+    width: 371px;
+    height: 374px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.blue-box {
+    background-color: #325DFF;
+    width: 88px;
+    height: 88px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.block .text {
+    width: 251px;
+    text-align: center;
+}
+.block h3 {
+    margin: 27px 0 9px 0;
+}
+.row1 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.size {
+    margin-bottom: 25px;
+}
+.text-block {
+    width: 771px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* pseudo classes */
+.block:first-child {
+    background-color: red;
+    margin-bottom: 25px;
+}
+.block:nth-child(2) {
+    background-color: yellow;
+    margin-bottom: 25px;
+}
+.block:nth-child(3) {
+    background-color: pink;
+    margin-bottom: 25px;
+}
+.block:nth-child(4) {
+    background-color: green;
+}
+.block:nth-child(5) {
+    background-color:coral;
+}
+.block:last-child {
+    background-color:darkorange;
+}
+
+.block:nth-child(3) h3 {
+    color: #fff;
+}
+
+/* .block:nth-child(even) {
+    background-color: yellow;
+}
+.block:nth-child(odd) {
+    background-color: green;
+} */
+/* .block:nth-child(2n) {
+    background-color: aqua;
+} */
